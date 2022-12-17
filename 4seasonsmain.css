@@ -1,0 +1,230 @@
+	* {
+		color:  white;
+	}
+
+	.menu {
+		display: flex;
+		background-color: #0099CC;
+		border-radius:  0px 0px 10px 10px;
+		position: fixed;
+		margin: -115px 10px 0px 150px;
+		padding: 8px;
+		z-index: 3;
+	}
+	li {
+		padding: 0px 50px 0px 55px;
+		display: inline;
+	}
+	a {
+		text-decoration: none;
+		color: white;
+	}
+	a:hover {
+		background: #336699;
+	}
+
+	Body {
+		background-color: white;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: full;
+		margin: 0px 0px 0px 0px;
+		padding: 10px 0px 0px 10px;
+	}
+	video {
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: -1;
+		background-size: cover;
+		width: 1290px;
+		margin-top: 150px;
+	}
+	/*Main and 10-Day Forecast*/
+	.deg {
+		border-radius: 20px;
+		width: 700px;
+		height: 600px;
+		margin: 15px 0px 0px 30px;
+		padding: 0px 0px 0px 10px;
+		align: center;
+		background: #333366;
+		z-index: 3;
+	}
+	
+	.data {
+		border-radius: 20px;
+		width: 400px;
+		height: 500px;
+		margin: 20px 0px 0px 50px;
+		padding: 0px 0px 0px 10px;
+		align: center;
+		background: #333366;
+		position:  none;
+		z-index: 3;
+	}
+	.detail {
+		background: #330066;
+		border-radius: 20px;
+		padding: 10px;
+		margin: 10px;
+		z-index: 3;
+	}
+	.hourly {
+		background: #330066;
+		border-radius: 20px;
+		padding: 10px;
+		overflow-x: scroll;
+		overflow-y: none;
+		margin: -800px 90px 0px 780px;
+		padding: 10px;
+		z-index: 3;
+		width: 430px;
+		height: 110px;
+	}
+	::-webkit-scrollbar {
+		width: 5px;
+		height: 10px;
+		background-color: #330066;
+		border-radius: 0px 0px 10px 10px;
+	}
+	::-webkit-scrollbar-thumb {
+		background-color: white;
+		border-radius: 0px 0px 10px 10px;
+	}
+	.each-hour-weather {
+		border-radius: 20px;
+		padding: 10px;
+		z-index: 3;
+	}
+	#activities {
+		background: #333366;
+		margin: 10px 0px 0px 780px;
+		height: 250px;
+		width: 450px;
+		border-radius: 20px;
+		padding: 10px;
+		z-index: 4;
+	}
+	/*Quick Glance Page*/
+	#child {
+		border-radius: 10px;
+	}
+	.fashion {
+		border-radius: 20px;
+		width: 700px;
+		height: 550px;
+		margin: 25px 0px 0px 0px;
+		padding: 0px 0px 0px 10px;
+		align: center;
+		background: #333366;
+		position:  none;
+		z-index: 3;
+	}
+	#quick-idea {
+		border-radius: 10px;
+		margin: 10px 10px 10px 0px;
+		padding: 5px;
+	}
+	.deg2 {
+		border-radius: 20px;
+		width: 1100px;
+		height: 600px;
+		margin: 15px 0px 0px 70px;
+		padding: 0px 0px 0px 10px;
+		align: center;
+		background: #333366;
+		z-index: 3;
+	}
+	#fashion-suggestions {
+		height: 100px;
+		width: 400px;
+	}
+	/*radar*/
+	#radar {
+		border-radius: 20px;
+	}
+	.title {
+		padding: 10px;
+		width: 400px;
+		background: #330066;
+		border-radius: 20px;
+		font-size: 30px;
+	}
+	.title2 {
+		padding: 5px;
+		background: #333366;
+		border-radius: 20px;
+		font-size: 30px;
+	}
+	.title3 {
+		padding: 5px;
+		background: #330066;
+		border-radius: 20px;
+		font-size: 40px;
+	}
+	.title4 {
+		padding: 5px;
+		background: #330066;
+		border-radius: 20px;
+		font-size: 50px;
+	}
+	.signup {
+		border-radius: 20px;
+		width: 300px;
+		height: 325px;
+		margin: 20px 0px 0px 50px;
+		padding: 10px;
+		align: center;
+		background: #333366;
+		z-index: 3;
+	}
+	.login {
+		border-radius: 20px;
+		width: 300px;
+		height: 250px;
+		margin: 20px 0px 0px 50px;
+		padding: 10px;
+		align: center;
+		background: #333366;
+		z-index: 3;
+	}
+/*10-Day-Forecast*/
+.deg3 {
+		border-radius: 20px;
+		width: 700px;
+		height: 300px;
+		margin: 15px 0px 0px 70px;
+		padding: 0px 0px 0px 10px;
+		align: center;
+		background: #333366;
+		z-index: 3;
+	}
+.daily {
+	background: #330066;
+	border-radius: 20px;
+	padding: 10px;
+	overflow-x: scroll;
+	overflow-y: none;
+	width: 1050px ;
+	margin: 20px 90px 0px 70px;
+	z-index: 3;
+}
+.each-day-weather {
+		border-radius: 20px;
+		padding: 10px;
+		z-index: 3;
+	}
+footer {
+	background-color: #330066;
+}
+.over {
+	color: #333366;
+}
+.footer-content {
+	padding: 0px;
+	margin: 10px 20px 0px 20px;
+}
+.social {
+	margin: 20px;
+}
